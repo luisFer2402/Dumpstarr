@@ -1,5 +1,5 @@
 name: Private Trackers
-pattern: (?i)\b(?:EMUWAREZ|torrentland|MACHETEKILLS|EMLHDTEAM|SPWEB)\b
+pattern: (?i)\b(?:EMUWAREZ|torrentland|MACHETEKILLS|EMLHDTEAM|SPWEB|Whisky135)\b
 description: 'Using Private tracker name as part of release group.
 
   '
