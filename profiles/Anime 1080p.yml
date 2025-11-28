@@ -34,8 +34,6 @@ custom_formats:
   score: 400
 - name: WEB Tier 01
   score: 350
-- name: Anime WEB Tier 4
-  score: 300
 - name: WEB Tier 02
   score: 300
 - name: WEB Tier 03
@@ -116,6 +114,8 @@ custom_formats_sonarr:
   score: 800
 - name: Anime Tier 8
   score: 700
+- name: Anime WEB Tier 4
+  score: 300
 qualities:
 - id: -5
   name: Bluray/REMUX 1080p
