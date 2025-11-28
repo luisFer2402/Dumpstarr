@@ -1,0 +1,17 @@
+name: ESP
+description: Add this custom format as part of naming so it can conserve the scoring
+tags:
+- custom
+conditions:
+- name: Spanish
+  type: language
+  required: false
+  negate: false
+  language: spanish
+  exceptLanguage: false
+- name: Spanish title
+  type: release_title
+  required: false
+  negate: false
+  pattern: "Espa\xF1ol"
+tests: []

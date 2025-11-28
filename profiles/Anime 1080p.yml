@@ -22,6 +22,10 @@ minCustomFormatScore: 0
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
+- name: Private Trackers
+  score: 10001
+- name: Multi-Sub
+  score: 2000
 - name: Anime Tier 1
   score: 1400
 - name: Anime Tier 2
@@ -70,8 +74,6 @@ custom_formats:
   score: 101
 - name: Anime WEB Tier 6
   score: 100
-- name: Multi-Subs
-  score: 10
 - name: CR
   score: 7
 - name: DSNP

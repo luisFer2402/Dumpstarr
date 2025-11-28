@@ -1,0 +1,11 @@
+name: Private Trackers
+description: ''
+tags:
+- custom
+conditions:
+- name: Private Trackers
+  type: release_title
+  required: false
+  negate: false
+  pattern: Private Trackers
+tests: []

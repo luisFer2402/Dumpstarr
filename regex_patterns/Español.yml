@@ -1,0 +1,16 @@
+name: "Espa\xF1ol"
+pattern: "(?i)\\b(?:esp(?:a\xF1ol)?|castellano?|spa(?:nish)?)\\b"
+description: "Custom format to match in the title any combination of: \"Espa\xF1ol\"\
+  , \"ESP\", \"castellano\", \"SPA\", \"Spanish\""
+tags:
+- custom
+tests:
+- id: 1
+  input: Serie S01 1080p NF WEB-DL ESP-ENG DDP 5.1 AVC
+  expected: true
+- id: 2
+  input: Movie name [1080p x265][HDR][VISIONPLUS][10Bits][AC3 5.1 Castellano DTS 5.1-Ingles+Subs][ES-EN]
+  expected: true
+- id: 3
+  input: "Movie name (2025) [Bluray 720p][Espa\xF1ol]"
+  expected: true

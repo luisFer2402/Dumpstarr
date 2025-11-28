@@ -16,6 +16,10 @@ minScoreIncrement: 1
 custom_formats: []
 custom_formats_radarr: []
 custom_formats_sonarr:
+- name: Private Trackers
+  score: 10001
+- name: ESP
+  score: 2000
 - name: WEB Tier 01
   score: 1700
 - name: WEB Tier 02
