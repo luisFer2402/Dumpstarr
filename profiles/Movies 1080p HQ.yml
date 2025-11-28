@@ -88,7 +88,19 @@ custom_formats_radarr:
   score: 7
 - name: Repack2
   score: 6
+- name: AMZN
+  score: 5
+- name: DSNP
+  score: 5
+- name: HBO
+  score: 5
+- name: HMAX
+  score: 5
+- name: NF
+  score: 5
 - name: Repack1
+  score: 5
+- name: ROKU
   score: 5
 - name: 2.0 Stereo
   score: -175
