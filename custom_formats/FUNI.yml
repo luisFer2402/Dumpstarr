@@ -5,18 +5,18 @@ tags:
 - Streaming Service
 conditions:
 - name: WEB-DL
-  type: source
-  required: false
   negate: false
+  required: false
   source: web_dl
-- name: WEBRip
   type: source
-  required: false
+- name: WEBRip
   negate: false
-  source: webrip
-- name: FUNI
-  type: release_title
   required: false
+  source: webrip
+  type: source
+- name: FUNI
   negate: false
   pattern: FUNI
+  required: false
+  type: release_title
 tests: []
