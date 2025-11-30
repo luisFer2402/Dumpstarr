@@ -136,8 +136,14 @@ custom_formats_radarr:
   score: -10000
 custom_formats_sonarr: []
 qualities:
-- id: 10
-  name: Bluray-1080p
+- id: -5
+  name: Bluray/REMUX 1080p
+  description: ''
+  qualities:
+  - id: 8
+    name: Remux-1080p
+  - id: 10
+    name: Bluray-1080p
 - id: -2
   name: WEB-1080p
   description: ''
