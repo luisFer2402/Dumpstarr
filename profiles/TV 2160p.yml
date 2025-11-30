@@ -167,7 +167,7 @@ custom_formats_sonarr:
 - name: x265 (HD)
   score: -10000
 qualities:
-- id: -4
+- id: -6
   name: Bluray/REMUX 2160p
   description: ''
   qualities:
@@ -232,6 +232,6 @@ qualities:
 - id: 24
   name: SDTV
 upgrade_until:
-  id: -5
+  id: -1
   name: WEB 2160p
 language: original
