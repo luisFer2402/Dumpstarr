@@ -145,6 +145,14 @@ custom_formats_sonarr:
 - name: x265 (HD)
   score: -10000
 qualities:
+- id: -5
+  name: Bluray/REMUX 1080p
+  description: ''
+  qualities:
+  - id: 8
+    name: Remux-1080p
+  - id: 10
+    name: Bluray-1080p
 - id: -2
   name: WEB 1080p
   description: ''
@@ -153,8 +161,6 @@ qualities:
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: 10
-  name: Bluray-1080p
 - id: 12
   name: HDTV-1080p
 - id: -3
