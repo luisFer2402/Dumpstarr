@@ -159,4 +159,5 @@ qualities:
 upgrade_until:
   id: -2
   name: WEB-1080p
+  description: ''
 language: original
