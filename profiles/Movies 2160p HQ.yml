@@ -187,7 +187,6 @@ qualities:
   - id: 14
     name: WEBDL-720p
 upgrade_until:
-  id: 4
-  name: Bluray-2160p
-  description: 4K Ultra HD Blu-ray video encoded with lossy compression
+  id: -1
+  name: WEB-2160p
 language: original

@@ -162,6 +162,6 @@ qualities:
 - id: 24
   name: SDTV
 upgrade_until:
-  id: -5
-  name: Bluray/REMUX 1080p
+  id: -2
+  name: WEB 1080p
 language: original
