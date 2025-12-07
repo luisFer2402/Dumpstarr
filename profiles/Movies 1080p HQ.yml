@@ -84,6 +84,8 @@ custom_formats_radarr:
   score: 10
 - name: Atmos
   score: 10
+- name: TrueHD
+  score: 10
 - name: Repack3
   score: 7
 - name: Repack2
@@ -125,8 +127,6 @@ custom_formats_radarr:
 - name: SDR (no WEBDL)
   score: -10000
 - name: Sing Along
-  score: -10000
-- name: TrueHD
   score: -10000
 - name: TrueHD Missing
   score: -10000

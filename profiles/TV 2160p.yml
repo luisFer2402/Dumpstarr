@@ -156,6 +156,8 @@ custom_formats_sonarr:
   score: 10
 - name: Surround Sound
   score: 10
+- name: Dolby Vision WEB-DL
+  score: 10
 - name: Repack3
   score: 7
 - name: Repack2
@@ -171,8 +173,6 @@ custom_formats_sonarr:
 - name: Banned Groups (Title)
   score: -10000
 - name: BR-DISK
-  score: -10000
-- name: Dolby Vision WEB-DL
   score: -10000
 - name: Incorrect Source
   score: -10000
