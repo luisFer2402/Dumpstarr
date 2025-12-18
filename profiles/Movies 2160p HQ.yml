@@ -92,6 +92,12 @@ custom_formats_radarr:
   score: 115
 - name: 4K Remaster
   score: 25
+- name: Criterion Collection
+  score: 25
+- name: IMAX
+  score: 25
+- name: IMAX Enhanced
+  score: 25
 - name: Remaster
   score: 25
 - name: CRIT
@@ -124,6 +130,8 @@ custom_formats_radarr:
   score: 5
 - name: ROKU
   score: 5
+- name: Missing Audio Channels
+  score: -50
 - name: Missing Subtitles
   score: -50
 - name: 2.0 Stereo
@@ -158,50 +166,41 @@ custom_formats_radarr:
   score: -10000
 custom_formats_sonarr: []
 qualities:
-- id: -4
-  name: Bluray/REMUX 2160p
-  description: ''
-  qualities:
-  - id: 3
-    name: Remux-2160p
-  - id: 4
-    name: Bluray-2160p
 - id: -1
-  name: WEB-2160p
+  name: 2160p
   description: ''
   qualities:
   - id: 5
     name: WEBDL-2160p
   - id: 6
     name: WEBRip-2160p
-- id: -5
-  name: Bluray/REMUX 1080p
-  description: ''
-  qualities:
-  - id: 8
-    name: Remux-1080p
-  - id: 10
-    name: Bluray-1080p
+  - id: 4
+    name: Bluray-2160p
+  - id: 3
+    name: Remux-2160p
 - id: -2
-  name: WEB-1080p
+  name: 1080p
   description: ''
   qualities:
   - id: 9
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: 13
-  name: Bluray-720p
+  - id: 10
+    name: Bluray-1080p
+  - id: 8
+    name: Remux-1080p
 - id: -3
-  name: WEB-720p
+  name: 720p
   description: ''
   qualities:
   - id: 15
     name: WEBRip-720p
   - id: 14
     name: WEBDL-720p
+  - id: 13
+    name: Bluray-720p
 upgrade_until:
   id: -1
-  name: WEB-2160p
-  description: ''
+  name: 2160p
 language: original
