@@ -103,6 +103,12 @@ custom_formats_radarr:
   score: 15
 - name: AAC
   score: 10
+- name: DTS-HD MA
+  score: 10
+- name: DTS-HD HRA
+  score: 10
+- name: DTS-X
+  score: 10
 - name: TrueHD
   score: 10
 - name: Repack3
@@ -133,12 +139,6 @@ custom_formats_radarr:
   score: -50
 - name: 2.0 Stereo
   score: -175
-- name: DTS-HD HRA
-  score: -1000
-- name: DTS-HD MA
-  score: -1000
-- name: DTS-X
-  score: -1000
 - name: TrueHD Missing
   score: -1000
 - name: 3D
