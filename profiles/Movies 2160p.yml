@@ -8,14 +8,14 @@ description: 'This profile focuses on streaming optimized sources with little to
   - This profile will prefer streaming optimized releases groups like **BHDStudio**
   and **hallowed**.
 
-  - This profile does not allow releases with HD Audio.
+  - This profile does not allow releases with HD Audio to ensure direct-play compatibility.
 
   - Releases without HDR fallback will be scored negatively to ensure playability
   across platforms.'
 tags:
 - Radarr
+- Streaming Optimized
 - 2160p
-- HQ
 upgradesAllowed: true
 minCustomFormatScore: 1000
 upgradeUntilScore: 10000
@@ -45,6 +45,8 @@ custom_formats_radarr:
 - name: UHD Bluray Tier 02
   score: 1050
 - name: 720p Tier 03
+  score: 1000
+- name: Baseline Groups
   score: 1000
 - name: Dolby Vision
   score: 1000
@@ -78,8 +80,6 @@ custom_formats_radarr:
   score: 500
 - name: HDR10+
   score: 500
-- name: Baseline Groups
-  score: 150
 - name: Dolby Digital +
   score: 125
 - name: Special Edition
@@ -87,6 +87,8 @@ custom_formats_radarr:
 - name: Dolby Digital
   score: 115
 - name: 4K Remaster
+  score: 25
+- name: Atmos
   score: 25
 - name: Remaster
   score: 25
@@ -97,8 +99,6 @@ custom_formats_radarr:
 - name: BCORE
   score: 15
 - name: AAC
-  score: 10
-- name: Atmos
   score: 10
 - name: Repack3
   score: 7

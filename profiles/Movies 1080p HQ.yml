@@ -1,17 +1,15 @@
 name: Movies 1080p HQ
-description: 'This profile is specifically designed to allow HQ audio formats that
-  are direct-play supported by the **AppleTV**.
+description: 'This profile is specifically designed to allow HQ audio and video formats
+  that are supported by the **AppleTV**.
 
   - This profile is recommended for a set-it-and-forget-it setup.
 
-  - This profile will allow releases with HD Audio like DTS-HD MA and DTS-X.
-
-  - This profile will not allow releases with TrueHD audio due to file size and direct-play
-  support.'
+  - This profile will allow releases with HD Audio like TrueHD, DTS-HD MA and DTS-X,
+  but will prefer Dolby Digital Plus with Atmos.'
 tags:
 - Radarr
-- 1080p
 - HQ
+- 1080p
 upgradesAllowed: true
 minCustomFormatScore: 1000
 upgradeUntilScore: 10000
@@ -21,49 +19,43 @@ custom_formats_radarr:
 - name: Private Trackers
   score: 10001
 - name: ESP
-  score: 2000
+  score: 2500
 - name: WEB Tier 01
-  score: 1700
+  score: 2000
 - name: WEB Tier 02
-  score: 1650
+  score: 1950
 - name: WEB Tier 03
-  score: 1600
+  score: 1900
 - name: WEB Tier 04
-  score: 1550
-- name: WEB Tier 05
-  score: 1500
-- name: 720p Tier 01
-  score: 1100
+  score: 1850
 - name: HD Bluray Tier 01
-  score: 1100
-- name: 720p Tier 02
-  score: 1050
+  score: 1800
+- name: WEB Tier 05
+  score: 1800
 - name: HD Bluray Tier 02
-  score: 1050
-- name: 720p Tier 03
-  score: 1000
+  score: 1750
 - name: HD Bluray Tier 03
-  score: 1000
-- name: 720p Tier 04
-  score: 950
+  score: 1700
 - name: HD Bluray Tier 04
-  score: 950
-- name: 720p Tier 05
-  score: 900
+  score: 1650
 - name: HD Bluray Tier 05
-  score: 900
-- name: 720p Tier 06
-  score: 850
+  score: 1600
+- name: 720p Tier 01
+  score: 1550
 - name: HD Bluray Tier 06
-  score: 850
-- name: DTS-X
-  score: 155
+  score: 1550
+- name: 720p Tier 02
+  score: 1500
+- name: 720p Tier 03
+  score: 1450
+- name: 720p Tier 04
+  score: 1450
+- name: 720p Tier 05
+  score: 1400
+- name: 720p Tier 06
+  score: 1350
 - name: Baseline Groups
-  score: 150
-- name: DTS-HD MA
-  score: 145
-- name: DTS-HD HRA
-  score: 135
+  score: 1000
 - name: Dolby Digital +
   score: 125
 - name: Special Edition
@@ -71,6 +63,8 @@ custom_formats_radarr:
 - name: Dolby Digital
   score: 115
 - name: 4K Remaster
+  score: 25
+- name: Atmos
   score: 25
 - name: Criterion Collection
   score: 25
@@ -87,8 +81,6 @@ custom_formats_radarr:
 - name: BCORE
   score: 15
 - name: AAC
-  score: 10
-- name: Atmos
   score: 10
 - name: TrueHD
   score: 10
@@ -110,14 +102,24 @@ custom_formats_radarr:
   score: 5
 - name: ROKU
   score: 5
+- name: 7.1 Surround
+  score: 5
+- name: 5.1 Surround
+  score: 0
 - name: Missing Audio Channels
   score: -50
 - name: Missing Subtitles
   score: -50
 - name: 2.0 Stereo
   score: -175
-- name: 10bit
-  score: -10000
+- name: DTS-HD HRA
+  score: -1000
+- name: DTS-HD MA
+  score: -1000
+- name: DTS-X
+  score: -1000
+- name: TrueHD Missing
+  score: -1000
 - name: 3D
   score: -10000
 - name: B&W
@@ -137,8 +139,6 @@ custom_formats_radarr:
 - name: SDR (no WEBDL)
   score: -10000
 - name: Sing Along
-  score: -10000
-- name: TrueHD Missing
   score: -10000
 - name: Upscaled
   score: -10000
