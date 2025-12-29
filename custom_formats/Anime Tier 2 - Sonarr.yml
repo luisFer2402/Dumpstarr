@@ -1,0 +1,27 @@
+name: Anime Tier 2 - Sonarr
+description: ''
+tags:
+- Anime
+- Group Tier
+conditions:
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: false
+  source: bluray_raw
+  type: source
+- name: DVD
+  negate: false
+  required: false
+  source: dvd
+  type: source
+- name: TRaSH Anime Bluray Tier 2
+  negate: false
+  pattern: TRaSH Anime Bluray Tier 2
+  required: true
+  type: release_group
+tests: []

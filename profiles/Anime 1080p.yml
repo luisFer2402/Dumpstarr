@@ -25,22 +25,6 @@ custom_formats:
   score: 10001
 - name: Multi-Sub
   score: 2000
-- name: Anime Tier 1
-  score: 1400
-- name: Anime Tier 2
-  score: 1300
-- name: Anime Tier 3
-  score: 1200
-- name: Anime Tier 4
-  score: 1100
-- name: Anime Tier 5
-  score: 1000
-- name: Anime Tier 6
-  score: 900
-- name: Anime Tier 7
-  score: 800
-- name: Anime Tier 8
-  score: 700
 - name: Anime WEB Tier 1
   score: 600
 - name: Anime WEB Tier 2
@@ -122,6 +106,22 @@ custom_formats:
 - name: VOSTFR
   score: -10000
 custom_formats_radarr:
+- name: Anime Tier 1 - Radarr
+  score: 1400
+- name: Anime Tier 2 - Radarr
+  score: 1300
+- name: Anime Tier 3 - Radarr
+  score: 1200
+- name: Anime Tier 4 - Radarr
+  score: 1100
+- name: Anime Tier 5 - Radarr
+  score: 1000
+- name: Anime Tier 6 - Radarr
+  score: 900
+- name: Anime Tier 7 - Radarr
+  score: 800
+- name: Anime Tier 8 - Radarr
+  score: 700
 - name: Remux Tier 01 - Radarr
   score: 1050
 - name: Remux Tier 02 - Radarr
@@ -131,6 +131,22 @@ custom_formats_radarr:
 - name: Anime WEB Tier 4 - Radarr
   score: 300
 custom_formats_sonarr:
+- name: Anime Tier 1 - Sonarr
+  score: 1400
+- name: Anime Tier 2 - Sonarr
+  score: 1300
+- name: Anime Tier 3 - Sonarr
+  score: 1200
+- name: Anime Tier 4 - Sonarr
+  score: 1100
+- name: Anime Tier 5 - Sonarr
+  score: 1000
+- name: Anime Tier 6 - Sonarr
+  score: 900
+- name: Anime Tier 7 - Sonarr
+  score: 800
+- name: Anime Tier 8 - Sonarr
+  score: 700
 - name: Remux Tier 01 - Sonarr
   score: 1050
 - name: Remux Tier 02 - Sonarr

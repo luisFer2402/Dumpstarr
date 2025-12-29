@@ -1,4 +1,4 @@
-name: Anime Tier 8
+name: Anime Tier 6 - Radarr
 description: ''
 tags:
 - Anime
@@ -14,9 +14,9 @@ conditions:
   required: false
   source: dvd
   type: source
-- name: TRaSH Anime Bluray Tier 8
+- name: TRaSH Anime Bluray Tier 6
   negate: false
-  pattern: TRaSH Anime Bluray Tier 8
+  pattern: TRaSH Anime Bluray Tier 6
   required: true
   type: release_group
 tests: []

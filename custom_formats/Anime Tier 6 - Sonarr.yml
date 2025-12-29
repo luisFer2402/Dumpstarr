@@ -1,4 +1,4 @@
-name: Anime Tier 4
+name: Anime Tier 6 - Sonarr
 description: ''
 tags:
 - Anime
@@ -9,14 +9,19 @@ conditions:
   required: false
   source: bluray
   type: source
+- name: Bluray Remux
+  negate: false
+  required: false
+  source: bluray_raw
+  type: source
 - name: DVD
   negate: false
   required: false
   source: dvd
   type: source
-- name: TRaSH Anime Bluray Tier 4
+- name: TRaSH Anime Bluray Tier 6
   negate: false
-  pattern: TRaSH Anime Bluray Tier 4
+  pattern: TRaSH Anime Bluray Tier 6
   required: true
   type: release_group
 tests: []
