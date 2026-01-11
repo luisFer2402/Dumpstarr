@@ -5,7 +5,7 @@
 [![Discord](https://img.shields.io/discord/1408095311661891796?label=Discord&logo=discord&style=for-the-badge)](https://discord.gg/TbYW2Q4hGv)
 
 > [!NOTE]
-> You can submit feature requests in our Discord
+> You must be on the `beta` version of Profilarr for Dumpstarr to work properly!
 
 ---
 
@@ -55,5 +55,5 @@ We include several specific fixes and features for common media-sourcing annoyan
 * **Automatic Sync** of the Dictionarry Group Tiers.
 * **Parks and Recreation Fix:** Correctly sources releases from NTb.
 * **Scrubs Fix:** Avoids 25fps PAL versions.
-* **HONE Fix:** Corrects issues with releases that have bad naming conventions. (Must be manually added to any profile)
+* **HONE Fix:** Prevents HONE releases from downloading when a proper release group isn't defined.
 * **Whose Line Is It Anyway (US) Fix:** Targets correct releases for early seasons of the US version due to inconsistent naming.
