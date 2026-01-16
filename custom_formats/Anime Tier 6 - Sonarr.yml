@@ -23,5 +23,5 @@ conditions:
   negate: false
   pattern: TRaSH Anime Bluray Tier 6
   required: true
-  type: release_group
+  type: release_title
 tests: []
