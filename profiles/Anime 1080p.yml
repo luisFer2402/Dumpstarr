@@ -51,6 +51,8 @@ custom_formats:
   score: 101
 - name: Anime WEB Tier 6
   score: 100
+- name: ESP
+  score: 50
 - name: Anime Baseline Groups
   score: 50
 - name: Dolby Digital +
