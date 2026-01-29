@@ -51,6 +51,8 @@ custom_formats:
   score: 101
 - name: Anime WEB Tier 6
   score: 100
+- name: CR
+  score: 75
 - name: ESP
   score: 50
 - name: Anime Baseline Groups
@@ -63,8 +65,6 @@ custom_formats:
   score: 25
 - name: AAC
   score: 10
-- name: CR
-  score: 7
 - name: DSNP
   score: 6
 - name: NF
