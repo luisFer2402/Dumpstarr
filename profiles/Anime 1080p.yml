@@ -43,10 +43,6 @@ custom_formats:
   score: 200
 - name: WEB Tier 04
   score: 200
-- name: Anime Dual Audio
-  score: 101
-- name: Multi-Audio
-  score: 101
 - name: Uncensored
   score: 101
 - name: Anime WEB Tier 6
@@ -55,6 +51,10 @@ custom_formats:
   score: 75
 - name: ESP
   score: 50
+- name: Anime Dual Audio
+  score: 51
+- name: Multi-Audio
+  score: 51
 - name: Anime Baseline Groups
   score: 50
 - name: Dolby Digital +
