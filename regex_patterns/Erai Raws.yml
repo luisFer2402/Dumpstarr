@@ -1,0 +1,8 @@
+name: Erai Raws
+pattern: \b(Erai-raws)\b
+description: ''
+tags: []
+tests:
+- id: 1
+  input: '[Erai-raws] Mayonaka Heart Tune - 02 [1080p CR WEB-DL AVC AAC][MultiSub][983EA363].mkv'
+  expected: true

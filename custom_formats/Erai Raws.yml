@@ -1,0 +1,22 @@
+name: Erai Raws
+description: ''
+tags: []
+conditions:
+- name: Erai Raws
+  type: release_title
+  required: false
+  negate: false
+  pattern: Erai Raws
+tests:
+- conditionResults:
+  - matches: true
+    name: Erai Raws
+    negate: false
+    pattern: Erai Raws
+    required: false
+    type: release_title
+  expected: true
+  id: 1
+  input: '[Erai-raws] Mayonaka Heart Tune - 02 [1080p CR WEB-DL AVC AAC][MultiSub][983EA363].mkv'
+  lastRun: '2026-01-29T01:49:11.843948'
+  passes: true
