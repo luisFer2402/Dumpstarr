@@ -14,4 +14,9 @@ conditions:
   required: false
   negate: false
   pattern: "Espa\xF1ol"
+- name: Private Trackers
+  type: release_title
+  required: false
+  negate: false
+  pattern: Private Trackers
 tests: []
