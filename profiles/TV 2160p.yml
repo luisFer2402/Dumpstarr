@@ -175,7 +175,9 @@ custom_formats_sonarr:
 - name: NTb
   score: 1
 - name: AV1
-  score: -10000
+  score: -5000
+- name: x265 (HD)
+  score: -5000
 - name: Banned Groups
   score: -10000
 - name: Banned Groups (Title)
@@ -191,8 +193,6 @@ custom_formats_sonarr:
 - name: TV Extras
   score: -10000
 - name: Whose Line (Not US Version)
-  score: -10000
-- name: x265 (HD)
   score: -10000
 qualities:
 - id: -6
