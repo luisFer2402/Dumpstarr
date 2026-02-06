@@ -112,11 +112,11 @@ custom_formats_radarr:
   score: 5
 - name: Missing Audio Channels
   score: -50
-- name: Missing Subtitles
-  score: -50
 - name: 10bit
   score: -10000
 - name: 3D
+  score: -10000
+- name: AV1
   score: -10000
 - name: B&W
   score: -10000
@@ -135,8 +135,6 @@ custom_formats_radarr:
 - name: DTS-X
   score: -10000
 - name: Extras
-  score: -10000
-- name: HONE Missing
   score: -10000
 - name: Non Retail HDR
   score: -10000

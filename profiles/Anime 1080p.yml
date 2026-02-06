@@ -35,6 +35,8 @@ custom_formats:
   score: 350
 - name: WEB Tier 02
   score: 300
+- name: Anime WEB Tier 4
+  score: 300
 - name: WEB Tier 03
   score: 250
 - name: WEB Tier 05
@@ -99,11 +101,11 @@ custom_formats:
   score: 1
 - name: v0
   score: -51
+- name: AV1
+  score: -5000
 - name: Anime LQ
   score: -10000
 - name: Anime Raws
-  score: -10000
-- name: AV1
   score: -10000
 - name: Dubs Only
   score: -10000
@@ -132,8 +134,6 @@ custom_formats_radarr:
   score: 1000
 - name: Remux Tier 03 - Radarr
   score: 950
-- name: Anime WEB Tier 4 - Radarr
-  score: 300
 custom_formats_sonarr:
 - name: Anime Tier 1 - Sonarr
   score: 1400
@@ -155,8 +155,6 @@ custom_formats_sonarr:
   score: 1050
 - name: Remux Tier 02 - Sonarr
   score: 1000
-- name: Anime WEB Tier 4 - Sonarr
-  score: 300
 qualities:
 - id: -5
   name: Bluray/REMUX 1080p
